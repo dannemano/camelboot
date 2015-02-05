@@ -10,7 +10,7 @@ Apache Camel is a integration framework and general toolbox. Together with Rabbi
 
 Purpose
 ===========
-
+Having a quick baseline to create integration services using Apache Camel. The Camel application will be bundled and executed as a standalone Javaapplication. No application server is needed.
 
 Running
 ===========
