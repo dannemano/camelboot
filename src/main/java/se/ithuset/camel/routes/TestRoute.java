@@ -12,6 +12,6 @@ public class TestRoute extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        from("timer://apa?period=4000&delay=5000").to("log:se.dbot.timer?level=INFO");
+        from("timer://myTimer?period=5000&delay=1000").to("log:se.ithuset.timer?level=INFO");
     }
 }

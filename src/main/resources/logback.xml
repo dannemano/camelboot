@@ -9,8 +9,8 @@
     </appender>
 
 
-    <logger name="org.springframework" level="INFO"></logger>
-    <logger name="se.dbot" level="DEBUG"></logger>
+    <logger name="org.springframework" level="DEBUG"></logger>
+    <logger name="se.ithuset" level="DEBUG"></logger>
 
     <root level="INFO">
         <appender-ref ref="STDOUT" />
